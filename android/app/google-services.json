@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "674352943623",
+    "project_id": "realidad-aumentada-8d043",
+    "storage_bucket": "realidad-aumentada-8d043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674352943623:android:e12e2904f25520347d90a2",
+        "android_client_info": {
+          "package_name": "com.example.ar_flutter_ejemplo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674352943623-1vg226t52o627n8t9b30b1hl4f66r8c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ar_flutter_ejemplo",
+            "certificate_hash": "8a29207b8070cccaea995316c7ab5e636c7946a8"
+          }
+        },
+        {
+          "client_id": "674352943623-4m41ti7u9qgjbtgkqrlu20bebrb7irn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDeB_l91a-jWUgT7i7AS4Yb-GL3rEPgWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674352943623-4m41ti7u9qgjbtgkqrlu20bebrb7irn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
