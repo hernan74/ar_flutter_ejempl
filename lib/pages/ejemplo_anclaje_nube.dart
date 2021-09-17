@@ -44,6 +44,10 @@ class _ExternalModelManagementWidgetState
       "Cubo",
       "https://github.com/hernan74/ejemplo_realidad_aumentada/blob/main/assets/adobe_ejemplo.glb?raw=true",
       "");
+  AvailableModel tazaModel = AvailableModel(
+      "Cubo",
+      "https://github.com/hernan74/ejemplo_realidad_aumentada/blob/main/assets/adobe_ejemplo.glb?raw=true",
+      "");
 
   bool readyToUpload = false;
   bool readyToDownload = true;

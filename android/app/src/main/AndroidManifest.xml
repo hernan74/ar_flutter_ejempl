@@ -11,10 +11,9 @@
 
    <application
         android:label="ar_flutter_ejemplo"
-        android:icon="@mipmap/ic_launcher">
-<!--         
-    <meta-data android:name="com.google.android.ar.API_KE"
-               android:value="AIzaSyCWGZFaFrKTn0Vb00HrNdHU69wR6rRVyP8"/> -->
+        android:icon="@mipmap/ic_launcher">      
+    <!-- <meta-data android:name="com.google.android.ar.API_KE"
+               android:value="AIzaSyCWGZFaFrKTn0Vb00HrNdHU69wR6rRVyP8"/>  -->
        <!-- <meta-data android:name="com.google.android.ar.API_KEY" android:value="AIzaSyCWGZFaFrKTn0Vb00HrNdHU69wR6rRVyP8"/> -->
        <meta-data android:name="com.google.ar.core" android:value="optional" />
         <activity
