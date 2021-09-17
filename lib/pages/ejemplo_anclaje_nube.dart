@@ -45,8 +45,8 @@ class _ExternalModelManagementWidgetState
       "https://github.com/hernan74/ejemplo_realidad_aumentada/blob/main/assets/adobe_ejemplo.glb?raw=true",
       "");
   AvailableModel tazaModel = AvailableModel(
-      "Cubo",
-      "https://github.com/hernan74/ejemplo_realidad_aumentada/blob/main/assets/adobe_ejemplo.glb?raw=true",
+      "Taza",
+      "https://github.com/hernan74/ar_flutter_ejempl/blob/main/assets/taza.glb?raw=true",
       "");
 
   bool readyToUpload = false;
@@ -219,7 +219,7 @@ class _ExternalModelManagementWidgetState
   }
 
   void onModelSelected(AvailableModel model) {
-    this.selectedModel = model;
+    this.tazaModel = model;
     this.arSessionManager.onError(model.name + " selected");
     setState(() {
       modelChoiceActive = false;
@@ -265,11 +265,11 @@ class _ExternalModelManagementWidgetState
         // Add note to anchor
         var newNode = ARNode(
             type: NodeType.webGLB,
-            uri: this.selectedModel.uri,
+            uri: this.tazaModel.uri,
             scale: VectorMath.Vector3(0.2, 0.2, 0.2),
             position: VectorMath.Vector3(0.0, 0.0, 0.0),
             rotation: VectorMath.Vector4(1.0, 0.0, 0.0, 0.0),
-            data: {"onTapText": "I am a " + this.selectedModel.name});
+            data: {"onTapText": "I am a " + this.tazaModel.name});
         bool didAddNodeToAnchor =
             await this.arObjectManager.addNode(newNode, planeAnchor: newAnchor);
         if (didAddNodeToAnchor) {
